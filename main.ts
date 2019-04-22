@@ -179,8 +179,6 @@ function creatingANewClass() {
 	point.drawPoint();
 }
 
-creatingANewClass();
-
 function creatingANewConstructor () {
 	// constructor is a reserved keyword in TS
 	class Dot {
