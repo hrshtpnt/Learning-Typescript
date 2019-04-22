@@ -12,6 +12,10 @@ do some tests until you are comfortable with each function.
 4. Read comments properly and google things that are not very clear.
 5. Let us begin.
 
+NOTE if the function you want to call is function test () {};
+call it as test();
+that's all, lets begin.
+
 */
 
 /*
