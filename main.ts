@@ -12,10 +12,6 @@ do some tests until you are comfortable with each function.
 4. Read comments properly and google things that are not very clear.
 5. Let us begin.
 
-NOTE if the function you want to call is function test () {};
-call it as test();
-that's all, lets begin.
-
 */
 
 /*
@@ -35,14 +31,14 @@ function firstProgram() {
 	console.log("Hello world");
 }
 
-/*
-The problem with the doSomething function is that 
+
+function usedVarKeyword() {
+	/*
+The problem with the usedVarKeyword function is that 
 the value of i exits outside the scope of the for loop
 block, to rectify this issue ES6 came up with let keyword
 check the difference yourself
 */
-
-function usedVarKeyword() {
 	for (var i=0; i< 10; i++) {
 
 		console.log(i);
@@ -50,6 +46,7 @@ function usedVarKeyword() {
 
 	console.log("Finally the value of i becomes : " + i);
 }
+
 
 function usedLetKeyword() {
 	for (let i=0; i< 10; i++) {
